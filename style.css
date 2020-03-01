@@ -1,0 +1,33 @@
+#nav {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(59, 64, 77);
+  height: 75px;
+}
+
+.nav-btn {
+  font-size: 1em;
+  background-color: rgb(59, 64, 77);
+  color: rgb(246, 246, 247);
+  border: 1px solid rgb(88, 95, 108);
+  height: 40px;
+  padding: 0px 30px;
+  margin: 0px 5px;
+}
+
+.nav-btn:hover {
+  background-color: rgb(75, 81, 95);
+}
+
+.red {
+  background-color: rgb(131, 41, 22);
+}
+
+.blue {
+ background-color: rgb(30, 133,	188);
+}
+
+.green {
+  background-color: rgb(33, 136, 54);
+}
