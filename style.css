@@ -170,3 +170,23 @@
     margin: auto;
   }
 }
+
+@media screen and (max-width: 730px) {
+  #nav {
+    height: 175px;
+  }
+
+  .nav-btn {
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #jumbo-text-heading {
+    font-size: 3rem;
+  }
+  
+  #jumbo-text-subheading {
+    font-size: 1rem;
+  }
+}
