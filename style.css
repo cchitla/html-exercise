@@ -63,7 +63,7 @@
 .three-col {
   margin-top: 1em;
   display: grid;
-  grid-template-columns: 27% 27% 27%;
+  grid-template-columns: 30% 30% 30%;
   justify-content: center;
 }
 
@@ -77,8 +77,8 @@
   margin-top: 10px;
   position: relative;
   left: 50%;
+  bottom: 0px;
   transform: translate(-50%, 0%);
-
 }
 
 .card {
@@ -91,22 +91,45 @@
   margin-bottom: 10px;
 }
 
-
 .card img{
   position: relative;
   width: 100%
 }
 
 .card-text {
+  text-align: left;
   margin: 20px;
   line-height: 1.3rem;
+  color: rgb(95, 95, 95);
 }
 
 
 .two-col {
+  margin-top: 1em;
   display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: center;
+  margin: auto;
+  position: relative;
 }
 
+.two-col-header {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 10px;
+}
+
+#light-btn {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  float: right;
+  color: rgb(95, 95, 95);
+  font-size: 1em;
+  height: 40px;
+  padding: 0px 40px;
+  border-radius: 8px;
+}
 
 .red {
   background-color: rgb(131, 41, 22);
